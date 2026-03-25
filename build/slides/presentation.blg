@@ -1,9 +1,0 @@
-[0] Config.pm:328> INFO - This is Biber 2.21
-[0] Config.pm:331> INFO - Logfile is '/home/azfarus/Documents/Samnun/Academic/Masters/AHCI/project/build/slides/presentation.blg'
-[45] biber:342> INFO - === Thu Feb 19, 2026, 12:46:49
-[54] Biber.pm:421> INFO - Reading '/home/azfarus/Documents/Samnun/Academic/Masters/AHCI/project/build/slides/presentation.bcf'
-[99] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
-[107] bbl.pm:676> INFO - Writing '/home/azfarus/Documents/Samnun/Academic/Masters/AHCI/project/build/slides/presentation.bbl' with encoding 'UTF-8'
-[107] bbl.pm:779> INFO - Output to /home/azfarus/Documents/Samnun/Academic/Masters/AHCI/project/build/slides/presentation.bbl
-[107] Biber.pm:132> WARN - The file '/home/azfarus/Documents/Samnun/Academic/Masters/AHCI/project/build/slides/presentation.bcf' does not contain any citations!
-[107] Biber.pm:134> INFO - WARNINGS: 1

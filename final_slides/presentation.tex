@@ -7,8 +7,8 @@
 \usepackage{array}
 \usepackage{appendixnumberbeamer}
 \usepackage{amsmath,amssymb}
-\usepackage[style=authoryear-comp, backend=biber, maxcitenames=2]{biblatex}
-\addbibresource{../report/references.bib}
+\usepackage[backend=biber]{biblatex}
+\addbibresource{references.bib}
 
 % ── Colour palette ──────────────────────────────────
 \definecolor{PrimaryBlue}{HTML}{1A73E8}
@@ -46,7 +46,7 @@
 
 % ── 1  Title ────────────────────────────────────────
 \begin{frame}[plain]
-  \titlepage
+  \maketitle
 \end{frame}
 
 % ── 2  Outline ──────────────────────────────────────
@@ -76,21 +76,19 @@
 \begin{frame}{Objectives \& Contributions}
   \textbf{Objectives}
   \begin{enumerate}
-    \item Identify user needs for a 3D steering evaluation system
-    \item Develop data-driven personas and scenarios
-    \item Specify requirements balancing rigour, data quality \& usability
-    \item Establish traceability between goals, needs \& system capabilities
+    \item Port Chen et.\ al's emperical approach of emperical evaluation of a modified fitts law to 3D curves\cite{chen2025curves}
+    \item Identify use cases for a 3D steering evaluation system
+    \item Develop personas to validate and ground the identified use cases
   \end{enumerate}
 
   \vspace{0.5em}
   \textbf{Key Contributions}
   \begin{itemize}
     \item Empirical understanding of 3D steering challenges
-    \item Personas \& scenarios grounded in human-centred design
-    \item Structured HCML requirements specification
-    \item Usability \& UX goals for high-quality data collection
+    \item Personas demonstrating meaningful use of the 3D adaptation
   \end{itemize}
 \end{frame}
+
 
 % ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 \section{Related Work}
