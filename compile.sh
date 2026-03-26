@@ -7,7 +7,8 @@ cd $1
 pdflatex -interaction=nonstopmode *.tex
 
 # Run biber for bibliography
-biber *.bcf
+# biber *.bcf
+bibtex *.aux
 
 # Run pdflatex twice more with nonstopmode for cross-references
 pdflatex -interaction=nonstopmode *.tex
